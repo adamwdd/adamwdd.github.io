@@ -50,12 +50,11 @@ body {
   margin: 0;
   position: absolute;
   cursor: pointer;
-  opacity: 0; /* hide this */
-  z-index: 2; /* and place it over the hamburger */
+  opacity: 0;
+  z-index: 2;
   -webkit-touch-callout: none;
 }
 
-/* Burger menu */
 .menu-container span {
   display: block;
   width: 33px;
@@ -103,7 +102,6 @@ body {
   font-size: 22px;
 }
 
-/* mobile styles */
 @media only screen and (max-width: 767px) {
   .menu-container {
     flex-direction: column;
@@ -131,7 +129,7 @@ body {
     padding: 75px 50px 50px;
     background: #cdcdcd;
     -webkit-font-smoothing: antialiased;
-    /* to stop flickering of text in safari */
+
     transform-origin: 0% 0%;
     transform: translateX(0%);
     transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
@@ -142,7 +140,7 @@ body {
   }
 }
 
-/* desktop styles */
+
 @media only screen and (min-width: 768px) {
   .menu-container {
     width: 100%;
@@ -156,7 +154,7 @@ body {
     display: none;
   }
 
-  /* Burger menu */
+  
   .menu-container span {
     display: none;
   }
