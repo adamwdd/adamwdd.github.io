@@ -1,47 +1,72 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="main.css" type="text/css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
     <title>my home on the web</title>
   </head>
   <body>
     <div class="container-fluid">
-        <div class="text-center">
-            <h1 class="display-4">Adam Woodward</h1>
-            <p class="lead">Enjoys design, development, and everything to-do with computers.</p>
-        </div>
-        <!-- scrollspy -->
-        <nav id="navbar">
-            <ul class="nav nav-pills justify-content-center">
-              <li class="nav-item">
-                <a class="nav-link" href="#about-me">about me</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#mdo">@mdo</a>
-              </li>
-            </ul>
-        </nav>
-          <div data-spy="scroll" data-target="#navbar" data-offset="0" tabindex="0">
-            <h4 id="about-me">about me</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum facere nostrum sed, modi reiciendis vitae laudantium incidunt officia consequuntur ducimus maxime ea consectetur tempora minus excepturi aliquam placeat eius! Cupiditate?</p>
-            <h4 id="mdo">@mdo</h4>
-            <p>...</p>
-          </div>
-        
-        
-        
-        
-        <!-- welcome alert -->
-        <div class="alert alert-success alert-dismissible fade show" role="alert">
-            <h1 class="display-6">Welcome!</h1>
-            <hr>
-            <p>I am always interested in new work opportunities.<br> 
-            Feel free to <a href="#" class="alert-link">contact me!</a></p>
-            <button type="button" class="btn-close" data-dismiss="alert" aria-label="Close"></button>
-        </div>
+      <!-- intro -->
+      <div class="container text-center">
+        <h1 class="display-4">Adam Woodward</h1>
+        <p class="lead">
+          Enjoys design, development, and everything to-do with computers.
+        </p>
+      </div>
+
+      <!-- navbar -->
+      <nav id="navbar">
+        <ul class="nav nav-pills justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link" href="#story">story</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#mdo">@mdo</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- scrollspy -->
+      <div data-spy="scroll" data-target="#navbar" data-offset="0" tabindex="0">
+        <h4 id="story">story</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+          facere nostrum sed, modi reiciendis vitae laudantium incidunt officia
+          consequuntur ducimus maxime ea consectetur tempora minus excepturi
+          aliquam placeat eius! Cupiditate?
+        </p>
+        <h4 id="mdo">@mdo</h4>
+        <p>...</p>
+      </div>
+
+      <!-- welcome alert -->
+      <div class="alert alert-success alert-dismissible fade show" role="alert">
+        <h1 class="display-6">Welcome! 👋</h1>
+        <hr />
+        <p>
+          Cool work opportunity?<br />
+          Feel free to <a href="#" class="alert-link">contact me!</a>
+        </p>
+        <button
+          type="button"
+          class="btn-close"
+          data-dismiss="alert"
+          aria-label="Close"
+        ></button>
+      </div>
+
+      <!-- test removal to see if patched -->
+      <script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js"
+        integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD"
+        crossorigin="anonymous"
+      ></script>
     </div>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js" integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD" crossorigin="anonymous"></script>
   </body>
 </html>
