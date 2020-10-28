@@ -1,1 +1,0 @@
-# adamwdd.github.io
